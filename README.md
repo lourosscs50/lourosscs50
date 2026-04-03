@@ -1,85 +1,73 @@
-# Hi, I'm Lou Carron 👋
+# Lou Carron
 
-Backend-focused Full-Stack Developer specializing in **.NET, SQL, and system architecture**.  
-I build secure, scalable applications with strong backend design and clean data modeling.
-
----
-
-## 🚀 Tech Stack
-
-**Backend**
-- ASP.NET Core
-- C#
-- Entity Framework Core
-- REST APIs
-- SQL Server
-
-**Languages**
-- C#
-- Python
-- C++
-- Java
-
-**Tools & Concepts**
-- MVC Architecture
-- Authentication & Authorization
-- Database Design
-- Git & GitHub
-- Object-Oriented Programming
-- System Design Principles
+Software engineer focused on building platform-level systems and modular architectures.
 
 ---
 
-## 🧩 Featured Projects
+## 🚀 Current Focus
 
-### ✅ TaskTracker
-Secure multi-user ASP.NET Core MVC task management system.
+I’m building a layered ecosystem of systems designed to support scalable, controlled, and observable software platforms:
 
-- Authentication with ASP.NET Core Identity
-- User-scoped data isolation
-- CRUD operations
-- EF Core migrations
-- SQL Server relational design
-
-👉 Production-style backend architecture.
+- **A.I.L. (AI Intelligence Layer)** — a modular platform for managing and executing AI workflows with strict boundaries, prompt lifecycle control, and provider abstraction
+- **ChronoFlow** — workflow orchestration engine for structured execution pipelines
+- **SignalForge** — rule-based signal detection and alerting system
+- **BeaconFlow** — event ingestion and processing foundation
+- **ClientForge** — multi-tenant platform for managing users, tenants, and system boundaries
 
 ---
 
-### 💰 Airgead Banking (C++)
-Investment calculator using compound interest modeling.
+## 🧠 Engineering Approach
 
-- OOP design
-- Financial calculations
-- Console reporting
-- Input validation
-
----
-
-### 🧾 Expense Tracker (Python)
-CLI-based finance tracker with persistent storage and analytics.
-
-- File persistence
-- Category aggregation
-- Balance computation
-- Data visualization
+- AI is a dependency, not the core
+- No domain logic leakage into the core
+- Build systems, not scripts
+- Deterministic behavior over implicit behavior
+- Clean architecture with strict boundaries
 
 ---
 
-### 🎪 Whispers of the Carnival
-Text adventure game demonstrating state-machine architecture.
+## 🏗 What I Build
 
-- Game state management
-- Input parsing
-- Inventory systems
-- Win/Loss logic
+I focus on:
+
+- modular monolith architectures
+- system orchestration layers
+- AI infrastructure (not AI wrappers)
+- event-driven systems
+- platform-level tooling
 
 ---
 
-## 📫 Connect With Me
+## 🛠 Tech Stack
 
-- LinkedIn: https://www.linkedin.com/in/lou-carron-2b2652123/
+- **Languages:** C#, TypeScript
+- **Frameworks:** .NET 10, Next.js
+- **Architecture:** Clean Architecture, Modular Monolith
+- **Tools:** Docker, PostgreSQL, Git, REST APIs
+
+---
+
+## 📌 Highlight Project
+
+### [A.I.L. — AI Intelligence Layer](https://github.com/lourosscs50/AIL)
+
+A platform for controlling how AI is used inside software systems.
+
+- Prompt registry with versioning and lifecycle management  
+- Provider abstraction for multi-model execution  
+- Reliability layer (retry, fallback)  
+- Observability and audit tracking  
+- Repository-backed design with persistence  
+
+---
+
+## 📫 Contact
+
+- Portfolio: https://loucarron.dev  
 - Email: louross101@gmail.com
 
 ---
 
-⭐ Always learning. Always building. Focused on backend engineering and scalable systems.
+## ⚡ Philosophy
+
+Evolution isn’t deviation. It’s convergence.
