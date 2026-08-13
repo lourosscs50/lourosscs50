@@ -1,236 +1,382 @@
-# Lou Carron
+Lou Carron
 
-Software engineer and Computer Science student focused on building reliable backend systems, modular platforms, and production-ready software.
+Founder & Software Developer building financial systems, platform infrastructure, and production software.
 
-I specialize in designing software with clear boundaries, deterministic behavior, strong testing, and operational visibility. My work spans backend development, workflow orchestration, event processing, artificial intelligence infrastructure, and business-focused web applications.
+I’m currently building AxleLedger — financial operations and intelligence software for owner-operators and small trucking fleets.
 
----
+My work spans full-stack development, backend systems, financial data modeling, workflow orchestration, event processing, AI infrastructure, APIs, and modular system architecture.
 
-## 🚀 Current Focus
+I approach software with a strong emphasis on clear boundaries, deterministic behavior, testable workflows, operational visibility, and systems that can evolve without losing control.
 
-I’m building a layered software ecosystem where each system has a focused responsibility:
+⸻
 
-- **[A.I.L. — AI Intelligence Layer](https://github.com/lourosscs50/AIL)**  
-  A modular intelligence platform for prompt management, provider selection, memory retrieval, execution reliability, and explainable decision visibility.
+🚛 Currently Building — AxleLedger
 
-- **SignalForge**  
-  A detection and alerting platform that evaluates signals, applies rules, manages alert lifecycles, exposes metrics, and triggers downstream automation.
+AxleLedger
 
-- **ChronoFlow**  
-  A workflow orchestration engine for validating, deduplicating, routing, executing, and tracking structured workflows.
+AxleLedger is a financial operations platform designed for owner-operators and small trucking fleets.
 
-- **BeaconFlow**  
-  An event-ingestion foundation designed around clean boundaries, reliable processing, and scalable system integration.
+The product grew from firsthand exposure to trucking operations and the difficulty of answering seemingly simple questions:
 
-- **ControlPlane**  
-  An operator-facing dashboard that combines execution, alert, trace, analytics, and decision visibility across the platform.
+* Is this load actually profitable?
+* What did the truck really earn this week?
+* How much is fuel affecting margin?
+* Are fixed costs being fully covered?
+* What should a carrier settlement have paid?
+* Were deductions applied correctly?
+* What financial or operational issue needs attention next?
 
-- **ClientForge**  
-  A multi-tenant foundation for identity, users, tenants, authentication, and system boundaries.
+AxleLedger is being built to turn fragmented trucking records into structured financial intelligence.
 
-Alongside the platform ecosystem, I am also building production-focused applications that solve real business problems.
+Current product areas
 
----
+* Financial command center and business-performance dashboard
+* Load creation, tracking, and profitability visibility
+* Diesel and DEF transaction management
+* Operating-expense tracking
+* Fixed-cost management
+* Settlement lifecycle and reconciliation
+* Maintenance lifecycle tracking
+* Driver, truck, and assignment management
+* Reporting-period controls
+* Responsive mobile and desktop workflows
+* Secure authentication and user-scoped data
+* Production deployment
 
-## 🚛 Featured Product
+Current product direction
 
-### [Axleledger](https://www.axleledger.com)
+AxleLedger is evolving beyond recordkeeping into a decision and audit platform.
 
-A mobile-first load, expense, and profitability platform for owner-operators and lease-purchase truck drivers.
+Current and upcoming development includes:
 
-Axleledger helps drivers track the numbers that determine whether their trucking business is actually profitable.
+* Profitability & Decision Engine
+    Evaluate load economics, break-even points, expected net revenue, fuel requirements, overhead absorption, and Accept / Counter / Decline decisions.
+* Document Pipeline
+    Process rate confirmations, BOLs, PODs, settlements, fuel receipts, repair invoices, tolls, and other business evidence while preserving document provenance.
+* Settlement Audit Engine
+    Independently calculate what an owner-operator should have been paid and compare that expected result with the carrier’s actual settlement.
+* Exception & Alert Intelligence
+    Surface short-payments, abnormal fuel burn, maintenance deadlines, missing documents, profitability issues, reserve concerns, and other operational exceptions.
+* AI-Assisted Workflows
+    Use artificial intelligence for extraction, reasoning, recommendations, and exception analysis while keeping authoritative financial calculations deterministic.
 
-Current capabilities include:
+AxleLedger technology
 
-- Secure Supabase authentication
-- Load creation, tracking, and management
-- Operating-expense tracking
-- Revenue and profit visibility
-- Reporting-period controls
-- Recent business activity
-- Responsive mobile and desktop workflows
-- Production deployment through Vercel
+* Next.js
+* TypeScript
+* React
+* Supabase
+* PostgreSQL
+* Tailwind CSS
+* Vercel
 
-**Built with:** Next.js, TypeScript, React, Supabase, PostgreSQL, Tailwind CSS, and Vercel
+Core architecture principle: AI can assist the system, but it does not become the financial source of truth.
 
----
+⸻
 
-## 🧠 Engineering Principles
+🧠 Engineering Principles
 
-- Artificial intelligence is a dependency, never the core
-- Domain logic should not leak across system boundaries
-- Detection and orchestration are separate responsibilities
-- Build systems, not disconnected scripts
-- Prefer deterministic behavior over hidden behavior
-- Make important decisions observable and explainable
-- Test behavior before expanding complexity
-- Evolution is not deviation; it is convergence
+The systems I build are guided by a few consistent principles:
 
----
+* Artificial intelligence is a dependency, not the core
+* Domain logic should remain authoritative and deterministic
+* System boundaries should be explicit
+* Detection and orchestration are separate responsibilities
+* Business logic should not leak across architectural boundaries
+* Important decisions should be observable and explainable
+* Reliability should be designed, not assumed
+* Test behavior before expanding complexity
+* Prefer systems over disconnected scripts
+* Preserve provenance when transforming data
+* Automate repeatable work without hiding consequential decisions
+* Build for change without sacrificing control
 
-## 🏗 What I Build
+Evolution isn’t deviation. It’s convergence.
 
-My primary areas of focus include:
+⸻
 
-- Backend services and REST APIs
-- Modular monoliths
-- Clean Architecture
-- Workflow orchestration
-- Event-driven systems
-- Artificial intelligence infrastructure
-- Authentication and multi-tenant systems
-- Decision and execution visibility
-- Relational database applications
-- Automated and integration testing
-- Production-focused business software
+🏗 Selected Systems & Architecture Work
 
----
+Alongside AxleLedger, I build systems focused on orchestration, AI infrastructure, multi-tenancy, event processing, workflow reliability, and platform architecture.
 
-## 🛠 Technology Stack
+A.I.L. — AI Intelligence Layer
 
-### Languages
+A modular intelligence layer for controlling how AI capabilities are used inside larger software systems.
 
-- C#
-- TypeScript
-- SQL
-- Python
-- C++
+A.I.L. is designed as infrastructure rather than a chatbot wrapper.
 
-### Backend and Web
+Key areas include:
 
-- .NET 10
-- ASP.NET Core
-- Minimal APIs
-- Next.js
-- React
-- Tailwind CSS
+* Prompt registry and versioning
+* Prompt lifecycle management
+* AI provider registration and selection
+* Provider fallback strategies
+* Replaceable agent execution
+* Memory storage and retrieval
+* Memory filtering and ranking
+* Reliability telemetry
+* Execution tracing
+* Decision explanations
+* Repository-backed persistence
+* Separation between AI behavior and domain logic
 
-### Data and Infrastructure
+The goal is to make AI usage controlled, replaceable, observable, and explainable.
 
-- PostgreSQL
-- Entity Framework Core
-- Supabase
-- SQLite
-- Docker
-- Vercel
+⸻
 
-### Architecture and Testing
+ChronoFlow
 
-- Clean Architecture
-- Modular Monoliths
-- REST APIs
-- Event-driven design
-- xUnit
-- Integration testing
-- Contract testing
-- GitHub Actions
+A workflow orchestration engine for structured execution pipelines.
 
-### Systems and Tools
+Designed around:
 
-- Git
-- GitHub
-- Linux
-- Visual Studio Code
-- Swagger / OpenAPI
-- UTM virtualization
-- Nginx
+* Workflow intake
+* Validation
+* Deduplication
+* Routing
+* Execution-instance tracking
+* Execution history
+* Correlation
+* Traceability
+* Deterministic workflow behavior
 
----
+ChronoFlow explores how complex workflows can be executed without allowing orchestration concerns to leak into domain systems.
 
-## 📌 Highlight Project
+⸻
 
-### [A.I.L. — AI Intelligence Layer](https://github.com/lourosscs50/AIL)
+SignalForge
 
-A platform capability that controls how artificial intelligence is used inside larger software systems.
+A rules-based signal detection and alerting platform.
 
-Key capabilities include:
+Capabilities include:
 
-- Prompt registry with versioning and lifecycle management
-- Provider registration, selection, and fallback
-- Replaceable agent execution layer
-- Memory storage, retrieval, filtering, and ranking
-- Reliability and execution telemetry
-- Decision explanations and trace visibility
-- Repository-backed persistence
-- Strict separation between intelligence and core business logic
+* Signal evaluation
+* Rule lifecycle management
+* Alert creation
+* Alert enrichment
+* Acknowledgement
+* Resolution
+* Reopening
+* Alert metrics
+* Audit history
+* Automation triggers
+* Decision visibility
 
-A.I.L. is designed as infrastructure—not as a chatbot wrapper.
+SignalForge separates detection from execution, allowing alerts and downstream automation to evolve independently.
 
----
+⸻
 
-## 🔧 Additional Projects
+BeaconFlow
 
-### SignalForge
+An event-ingestion foundation designed for reliable system integration.
 
-A rules-based detection platform supporting:
+Focus areas include:
 
-- Signal evaluation
-- Rule lifecycle management
-- Alert creation and enrichment
-- Acknowledgement, resolution, and reopening
-- Alert metrics
-- Audit history
-- Automation triggers
-- Decision visibility
+* Event intake
+* Validation
+* Processing boundaries
+* Reliable integration
+* Traceability
+* Extensible event handling
+* Clean separation between transport and domain logic
 
-### ChronoFlow
+⸻
 
-A workflow orchestration platform supporting:
+ClientForge
 
-- Control-trigger intake
-- Validation and deduplication
-- Workflow routing
-- Execution-instance tracking
-- Execution history
-- Correlation and traceability
+A multi-tenant platform foundation focused on identity and system boundaries.
 
-### Closeoutflow
+Core areas include:
 
-A modular closeout workflow platform built with ASP.NET Core Minimal APIs, SQLite, Swagger, xUnit, and GitHub Actions.
+* Users
+* Tenants
+* Authentication
+* Authorization
+* Tenant isolation
+* JWT-based identity
+* Multi-tenant application boundaries
 
-### Clip & Cast
+⸻
 
-A production-oriented media workflow product covering assets, clips, advertising, scheduling, publishing intent, analytics visibility, and YouTube publishing workflows.
+Closeoutflow
 
----
+A modular closeout workflow platform built around strict lifecycle rules and concurrency guarantees.
 
-## 🖥 Homelab and Technical Development
+Built with:
 
-I use Linux and Windows virtual machines to build hands-on experience with:
+* ASP.NET Core Minimal APIs
+* SQLite
+* Swagger / OpenAPI
+* xUnit
+* GitHub Actions
 
-- Linux command-line administration
-- Users, permissions, files, and services
-- Nginx configuration
-- Networking and troubleshooting
-- SSH and secure file transfer
-- Virtualization
-- Break/fix exercises
-- Cybersecurity fundamentals
-- Cloud and systems concepts
+The project includes contract and concurrency testing designed to prove that duplicate closeout operations cannot create inconsistent state.
 
----
+⸻
 
-## 🎓 Background
+Clip & Cast
 
-I am pursuing a Bachelor of Science in Computer Science with a concentration in Software Engineering at Southern New Hampshire University.
+A production-oriented media workflow product covering:
 
-Before moving deeper into software engineering, I built extensive experience in trucking and logistics. That background strengthened my ability to work independently, manage time-sensitive operations, troubleshoot under pressure, document accurately, and understand the real cost of unreliable systems.
+* Media assets
+* Clips
+* Advertising workflows
+* Scheduling
+* Publishing intent
+* Analytics visibility
+* YouTube publishing workflows
 
-I bring that same operational mindset into software development:
+⸻
 
-> Understand the workflow, protect the boundaries, test the behavior, and build systems people can trust.
+🔧 What I Build
 
----
+My primary areas of engineering interest include:
 
-## 📫 Contact
+* Financial software
+* Full-stack applications
+* Backend services
+* REST APIs
+* Modular monoliths
+* Clean Architecture
+* Workflow orchestration
+* Event-driven systems
+* Artificial intelligence infrastructure
+* Multi-tenant platforms
+* Authentication and authorization
+* Financial data modeling
+* Decision-support systems
+* Relational database applications
+* Integration testing
+* Contract testing
+* Concurrency guarantees
+* Production-focused business software
+* Operational and decision visibility
 
-- **Portfolio:** [loucarron.dev](https://loucarron.dev)
-- **Axleledger:** [www.axleledger.com](https://www.axleledger.com)
-- **GitHub:** [github.com/lourosscs50](https://github.com/lourosscs50)
-- **Email:** [louross101@gmail.com](mailto:louross101@gmail.com)
+⸻
 
----
+🛠 Technical Focus
 
-## ⚡ Philosophy
+Languages
 
-> Evolution isn’t deviation. It’s convergence.
+* C#
+* TypeScript
+* SQL
+* Python
+* C++
+
+Application Development
+
+* .NET
+* ASP.NET Core
+* Minimal APIs
+* Next.js
+* React
+* Tailwind CSS
+
+Data
+
+* PostgreSQL
+* Supabase
+* Entity Framework Core
+* SQL Server
+* SQLite
+
+Architecture
+
+* Clean Architecture
+* Modular Monoliths
+* REST APIs
+* Event-Driven Design
+* Workflow Orchestration
+* Multi-Tenant Systems
+* Domain Boundaries
+* Financial Data Modeling
+
+Testing & Delivery
+
+* xUnit
+* Integration Testing
+* Contract Testing
+* Concurrency Testing
+* GitHub Actions
+* Docker
+* Git
+* GitHub
+
+Systems
+
+* Linux
+* Nginx
+* SSH
+* Networking
+* Virtualization
+* API diagnostics
+* Production troubleshooting
+
+⸻
+
+🖥 Systems & Homelab Development
+
+I use Linux and Windows environments to strengthen the infrastructure knowledge behind the applications I build.
+
+Hands-on areas include:
+
+* Linux command-line administration
+* Users and permissions
+* Filesystems
+* Services and processes
+* Nginx configuration
+* Networking
+* SSH
+* Secure file transfer
+* Virtualization
+* Break/fix exercises
+* Application deployment
+* Cybersecurity fundamentals
+* Cloud and systems concepts
+
+I believe application developers benefit from understanding what happens below the framework layer.
+
+⸻
+
+🎓 Background
+
+I’m currently completing a Bachelor of Science in Computer Science with a concentration in Software Engineering at Southern New Hampshire University.
+
+My path into software also includes extensive firsthand experience in trucking and logistics.
+
+Working in transportation exposed me to the realities of:
+
+* Time-sensitive operations
+* Fuel economics
+* Equipment costs
+* Settlements
+* Load profitability
+* Operational risk
+* Recordkeeping
+* Financial uncertainty
+* Systems that fail when people need them most
+
+That experience became part of the reason I started building AxleLedger.
+
+Rather than treating trucking and software as unrelated careers, I use my industry experience as domain knowledge for designing technology around real operational problems.
+
+The same mindset carries into my engineering work:
+
+Understand the workflow. Protect the boundaries. Test the behavior. Build systems people can trust.
+
+⸻
+
+📫 Connect
+
+* Portfolio: loucarron.dev
+* AxleLedger: axleledger.com
+* GitHub: github.com/lourosscs50
+* LinkedIn: Lou Carron
+* Email: louross101@gmail.com
+
+⸻
+
+⚡ Philosophy
+
+Evolution isn’t deviation. It’s convergence.
